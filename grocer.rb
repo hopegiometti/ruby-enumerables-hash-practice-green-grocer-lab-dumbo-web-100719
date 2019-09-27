@@ -48,7 +48,6 @@ def apply_coupons(cart, coupons)
         :count => coupon[:num]
         }
 
-        num_of_c += 1
       end
     end
   end
