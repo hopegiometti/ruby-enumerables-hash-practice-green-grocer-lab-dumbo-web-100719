@@ -17,7 +17,7 @@ end
 def apply_coupons(cart, coupons)
   name = coupon[:item]
   
-  
+
 end
 
 def apply_clearance(cart)
