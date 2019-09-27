@@ -24,6 +24,9 @@ def apply_coupons(cart, coupons)
         count: coupon[:num]
       }
       cart[item][:count] -= coupon[:num]
+    elsif cart[:item][:count] >= coupon[:num] && cart["#{name} W/COUPON"]
+      
+      
 
 
   #coupons.each do |coupon|
