@@ -42,6 +42,10 @@ def apply_clearance(cart)
   #if item is not on clearance then no discount
 
   cart.each do |item, info|
+    if cart[item][:clearance] == true
+      cart[item][:price] = cart[item][:price] * 0.8
+    else
+      cart[item][:price] = cart[item][:price]
 end
 
 def checkout(cart, coupons)
