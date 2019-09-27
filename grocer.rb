@@ -37,6 +37,11 @@ end
 
 def apply_clearance(cart)
   # code here
+  # need to check if item is on clearance
+  #if item is on clearance take off 20% form price
+  #if item is not on clearance then no discount
+
+  cart.each do |item, info|
 end
 
 def checkout(cart, coupons)
